@@ -24,4 +24,4 @@ const BookShelf = ({cat , books}) => {
   )
 }
 
-export default BookShelf ;
+export default React.memo(BookShelf)
